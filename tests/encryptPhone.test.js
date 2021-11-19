@@ -1,6 +1,6 @@
 const encryptPhoneNumber = require('../encryptPhone')
 
-describe('Encrypy Phone Number', () => {
+describe('Encrypt Phone Number', () => {
   describe.each([['888-445-3421', '***-***-3421']])(
     'double(%d)',
     (input, expected) => {
